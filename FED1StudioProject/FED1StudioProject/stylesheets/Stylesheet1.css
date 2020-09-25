@@ -1,2 +1,59 @@
-﻿body {
+﻿nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+body{
+    background-color:aliceblue;
+}
+
+nav ul li{
+    font-weight:bold;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul {
+    background-color:aqua;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+nav ul li:hover{
+    background-color:lightcyan;
+    color:white;
+}
+
+header{
+    background-color:aqua;
+    color:darkblue;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+#contactlist li {
+    background-color: lightgrey;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align:center;
+    padding: 8px;
+    list-style:none;
+}
+
+#contactus{
+    font-family:Impact;
+    background-color:lightgrey;
+    text-align:center;
+}
+
+footer{
+    background-color:aqua;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    color:darkblue;
+    padding: 5px;
+}
+
+footer a{
+    padding:8px;
 }
