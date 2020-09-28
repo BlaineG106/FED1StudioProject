@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="contact.html" />
+    <Content Include="images\educationlogo-web.jpg" />
+    <Content Include="images\educationlogo.jpg" />
     <Content Include="stylesheets\Stylesheet1.css" />
     <Content Include="team.html" />
     <Content Include="classes.html" />
@@ -87,7 +89,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>

@@ -1,4 +1,10 @@
-﻿nav a {
+﻿@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Oswald:wght@600&display=swap');
+/*
+    Google Fonts:
+    font-family: 'Asap', sans-serif;
+    font-family: 'Oswald', sans-serif;
+*/
+nav a {
     padding: 10px;
     text-decoration: none;
 }
@@ -7,8 +13,8 @@ body{
     background-color:aliceblue;
 }
 
-nav ul li{
-    font-weight:bold;
+nav ul li {
+    font-family: 'Oswald', sans-serif;
     display: inline-block;
     padding: 10px;
 }
@@ -41,7 +47,6 @@ header{
 }
 
 #contactus{
-    font-family:Impact;
     background-color:lightgrey;
     text-align:center;
 }
@@ -51,9 +56,40 @@ footer{
     border-top: 4px solid black;
     border-bottom: 4px solid black;
     color:darkblue;
-    padding: 5px;
+    padding: 20px;
 }
 
 footer a{
     padding:8px;
+}
+
+main{
+    font-family: 'Asap', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#classes{
+    background-color:lightgray;
+}
+
+#classlist{
+    background-color:lightgray;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#logo1{
+    padding: 20px;
+    float:left;
+}
+
+.tablehead{
+    padding: 15px;
+}
+
+.tablerow1{
+    padding: 15px;
 }
