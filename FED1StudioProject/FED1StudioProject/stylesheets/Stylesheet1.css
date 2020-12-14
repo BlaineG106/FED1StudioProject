@@ -20,7 +20,7 @@ nav ul li {
 }
 
 nav ul {
-    background-color:aqua;
+    background-color: aqua;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
 }
@@ -42,8 +42,10 @@ header{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     text-align:center;
-    padding: 8px;
+    padding: 20px 15px;
     list-style:none;
+    margin:1em;
+    margin-right:3em;
 }
 
 #contactus{
@@ -56,7 +58,7 @@ footer{
     border-top: 4px solid black;
     border-bottom: 4px solid black;
     color:darkblue;
-    padding: 20px;
+    padding: 30px;
 }
 
 footer a{
@@ -92,4 +94,60 @@ h1, h2, h3 {
 
 .tablerow1{
     padding: 15px;
+}
+
+#teamlist{
+    float:right;
+    width:20%;
+}
+
+#leadership{
+    float:left;
+    width:70%;
+    border-right: 2px solid black;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+.clear{
+    clear:both;
+}
+
+.leadershipli{
+    padding: 2em;
+    background-color:lightgray;
+}
+
+#contactus{
+    margin:2em;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 65px;
+    z-index: 1031;
+    display: none;
+}
+
+#clickClose{
+    color: white;
+}
+
+#lightbox-container img{
+    margin: auto;
+    border: 10px solid gray;
+}
+
+.leadershipli{
+    cursor: pointer;
+}
+
+span#rfvName, span#rfvEmail, span#rfvMessage {
+    color: darkblue;
 }

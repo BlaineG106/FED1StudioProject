@@ -70,8 +70,20 @@
     <Content Include="contact.html" />
     <Content Include="images\educationlogo-web.jpg" />
     <Content Include="images\educationlogo.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\idphoto.jpg" />
+    <Content Include="images\idPhoto1.jpg" />
+    <Content Include="images\idPhoto2.jpg" />
+    <Content Include="images\idPhoto3.jpg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\contactForm.js" />
+    <Content Include="Scripts\Main.js" />
+    <Content Include="stylesheets\bootstrap-darkly.min.css" />
     <Content Include="stylesheets\Stylesheet1.css" />
-    <Content Include="team.html" />
+    <Content Include="teaminstructors.html" />
+    <Content Include="teamadministration.html" />
+    <Content Include="teamsales.html" />
+    <Content Include="teamleadership.html" />
     <Content Include="classes.html" />
     <Content Include="Index.html" />
     <Content Include="Web.config" />
@@ -88,9 +100,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

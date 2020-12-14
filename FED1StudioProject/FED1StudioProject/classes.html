@@ -5,14 +5,31 @@
     <meta name="description" content="small education business, classes page" />
     <meta name="keywords" content="classes, education, schedule" />
     <meta name="author" content="Blaine Gomez" />
+
+    <link href="css/bootstrap-flatly-theme.min.css" rel="stylesheet" />
+
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    
+
+    <!-- Jquery CSS link -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/darkly/jquery-ui.css">
+
+    <!-- Datatables sheet -->
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" />"
+
     <link href="stylesheets/Stylesheet1.css" rel="stylesheet" />
+
+
+
+
+
     <title>
         Learn with Us / Classes
     </title>
 </head>
 <body>
     <header>
-        <img id="logo1" src="images/educationlogo-web.jpg" />
+        <img id="logo1" src="images/educationlogo-web.jpg" alt="Company Logo" />
         <h2>
             Company Name
         </h2>
@@ -31,7 +48,7 @@
                 <a href="classes.html">Classes</a>
             </li>
             <li>
-                <a href="team.html">Team</a>
+                <a href="teamleadership.html">Team</a>
             </li>
             <li>
                 <a href="contact.html">Contact</a>
@@ -79,50 +96,63 @@
             <p>
                 Lorem ipsum jfkd;alksjd;lkjdlkajsd;kjasd;fkjasd;flkjjfkdksdkj
             </p>
-          </section>
+        </section>
 
-                <section style="background-color:lightgray">
-                    <h2 style="text-align:center">
-                        Classes
-                    </h2>
-                    <table style="align-content:center">
-                       <thead>
-                           <tr>
-                               <th class="tablehead">#</th>
-                               <th class="tablehead">First Name</th>
-                               <th class="tablehead">Last Name</th>
-                               <th class="tablehead">User Name</th>
-                           </tr>
-                       </thead>
-                        <tbody>
-                            <tr>
-                                <td class="tablerow1">1</td>
-                                <td class="tablerow1">Class Name</td>
-                                <td class="tablerow1">Instructor</td>
-                                <td class="tablerow1">Meets</td>
-                            </tr>
-                            <tr>
-                                <td class="tablerow1">2</td>
-                                <td class="tablerow1">Jacob</td>
-                                <td class="tablerow1">Thorton</td>
-                                <td class="tablerow1">@fat</td>
-                            </tr>
-                            <tr>
-                                <td class="tablerow1">3</td>
-                                <td class="tablerow1">Larry</td>
-                                <td class="tablerow1">theBird</td>
-                                <td class="tablerow1">@twitter</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-</main>
+        <section style="background-color:lightgray">
+            <h2 style="text-align:center">
+                Classes
+            </h2>
+            <table id="classTable" style="align-content:center">
+                <thead>
+                    <tr>
+                        <th class="tablehead">#</th>
+                        <th class="tablehead">First Name</th>
+                        <th class="tablehead">Last Name</th>
+                        <th class="tablehead">User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tablerow1">1</td>
+                        <td class="tablerow1">Class Name</td>
+                        <td class="tablerow1">Instructor</td>
+                        <td class="tablerow1">Meets</td>
+                    </tr>
+                    <tr>
+                        <td class="tablerow1">2</td>
+                        <td class="tablerow1">Jacob</td>
+                        <td class="tablerow1">Thorton</td>
+                        <td class="tablerow1">@fat</td>
+                    </tr>
+                    <tr>
+                        <td class="tablerow1">3</td>
+                        <td class="tablerow1">Larry</td>
+                        <td class="tablerow1">theBird</td>
+                        <td class="tablerow1">@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
     <br />
     <footer>
         All Rights Reserved 2019
         <a href="www.facebook.com/learnwithus">Facebook</a>
         <a href="@weteachstuff">Twitter</a>
     </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+    <script src="Scripts/jQueryPlugins.js"></script>
+
+    <script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#classTable').DataTable();
+        });
+    </script>
+
+    <script></script>
 </body>
 </html>

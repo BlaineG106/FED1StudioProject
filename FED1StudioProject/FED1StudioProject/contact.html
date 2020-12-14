@@ -5,12 +5,16 @@
     <meta name="description" content="small educational business, contact us page" />
     <meta name="keywords" content="contact, number, email, social media" />
     <meta name="author" content="Blaine Gomez" />
-    <link href="stylesheets/Stylesheet1.css" rel="stylesheet" />
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
     <title>Learn with Us / Contact</title>
+
+    <link href="stylesheets/bootstrap-darkly.min.css" rel="stylesheet" />
+    <link href="stylesheets/Stylesheet1.css" rel="stylesheet" />
+
 </head>
 <body>
     <header>
-        <img id="logo1" src="images/educationlogo-web.jpg" />
+        <img id="logo1" src="images/educationlogo-web.jpg" alt="Company Logo" />
         <h2>
             Company Name
         </h2>
@@ -27,7 +31,7 @@
                 <a href="classes.html">Classes</a>
             </li>
             <li>
-                <a href="team.html">Team</a>
+                <a href="teamleadership.html">Team</a>
             </li>
             <li>
                 <a href="contact.html">Contact</a>
@@ -38,22 +42,43 @@
         <h1 id="contactus">
             Contact Us
         </h1>
-        <hr />
-        <ul id="contactlist">
-            <li>
-                Phone:<a href="+01-816-857-5309">816-857-5309</a>
-            </li>
-            <li>
-                Email:<a href="mailto:learning@smallbiz.com">Learning@smallbiz.com</a>
-            </li>
-            <li>
-                Address: 1740 W 92nd Street, Kansas City, MO 64114
-            </li>
-        </ul>
+
+        <form action="#" method="get" onsubmit="validateForm(event)">
+                <div class="row">
+                    <div class="col-md-4 form-group col-md-offset-2">
+                        <input type="text" id="tbName" class="form-control" placeholder="Name" name="Name" />
+                        <span id="rfvName" class="invalid"></span>
+                    </div>
+                    <div class="col-md-4 form-group">
+                        <input type="text" id="tbEmail" class="form-control" placeholder="Email" name="Email" />
+                        <span id="rfvEmail" class="invalid"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 form-group">
+                        <textarea id="tbMessage" class="form-control" placeholder="Message" name="Message"></textarea>
+                        <span id="rfvMessage" class="invalid"></span>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 form-group">
+                        <input type="submit" class="btn btn-success" value="submit message" />
+                    </div>
+                </div>
+        </form>
+
     </main>
+    <br />
+    <br />
     <footer>
-        All Rights Reserved 2019 
-        <a href="mailto:learning@smallbiz.com" >learning@smallbiz.com</a>
+        All Rights Reserved 2019
+        <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="Scripts/bootstrap.js"></script>
+
+    <script src="Scripts/jQueryPlugins.js"></script>
+
+    <script src="Scripts/contactForm.js"></script>
 </body>
 </html>
